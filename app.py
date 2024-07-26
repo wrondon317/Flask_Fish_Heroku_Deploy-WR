@@ -1,8 +1,6 @@
 import pickle
-
 import numpy as np
 from flask import Flask, request, render_template
-
 from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
